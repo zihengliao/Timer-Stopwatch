@@ -81,11 +81,6 @@ start.addEventListener('click', button => {
 })
 
 
-// reset.addEventListener('click', resetting => {
-//     min[0].value = ""
-//     sec[0].value = ""
-//     hr[0].value = ""
-// })
 
 reset.addEventListener('click', reset_all)
 
@@ -186,17 +181,3 @@ function counting() {
 
 
 
-
-
-
-
-
-// function clearinput() {
-//     sec[0].value = ""
-//     console.log("works")
-// }
-
-// sec.addEventListener('click', () => {
-//     sec[0].value = ""
-//     console.log("works")
-// })

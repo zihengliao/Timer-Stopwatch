@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box; /* this is so that the padding and the border are accounted for, for the size of the box */
+    font-family: sans-serif;
+    font-weight: 400;    /* this is how bold it is*/
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 800px; 
+    /* grid-template-rows: repeat(3, 200px); */
+    height: 90vh;
+    place-items: center;
+}
+
+.options > button {
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+
+.stopwatch:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* 
+.timer {
+    color: rgb(100, 150, 255);
+    border-bottom: 1px solid rgb(100, 150, 255)
+} */
+
+.timer:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.input {
+    width: 125px;
+    height: 150px;
+    font-size: 100px;
+    border: 0;
+    position: relative;
+    left: -90px;
+    
+}
+
+.commands > button{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+    position: relative;
+    left: -200px;
+    
+}
+
+
+
+b {
+    font-size: 36px;
+    position: relative;
+    left: -90px;
+}
+
+
+/* things i need to do but dont know how:
+        - move the start and reset button to the left 
+        - have gaps inside the input box so that it is easy to tell the hours, minutes and seconds
+*/
